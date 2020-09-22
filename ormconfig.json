@@ -1,0 +1,11 @@
+{
+  "type": "sqlite",
+  "database": "src/database/db.sqlite",
+  "synchronize": true,
+  "logging": true,
+  "autoSchemaSync": true,
+  "entities": [
+    "src/entities/*.*",
+    "dist/entities/*.*"
+  ]
+}
